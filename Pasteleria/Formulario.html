@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Styles.css"/>
+    <link al rel="shortcut icon" type="imgage/png" href="https://i.ibb.co/sH2CSv6/Sweet-Bakery-2.png"/>
+</head>
+<body>
+    <div align="right">
+        <a href="index.html">Inicio</a><br>
+    </div>
+
+
+    <img src="https://i.ibb.co/sH2CSv6/Sweet-Bakery-2.png" width="100px" />
+    <h1 align="center" id="Formulario">Formulario Para Pedidos</h1>
+
+    <form  action="/Formulario" method="post">   
+        <div align="center" >
+            <label for=Nombre>Nombre Completo</label>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Nombre Completo"/> <br><br>
+
+            <label for=correo>Correo Electronico</label>
+            <input type="text" id="correo" name="correo" placeholder="Correo Electronico"/> <br><br>
+
+            <label for=numerotel>Numero Telefonico</label>
+            <input type="text" id="numerotel" name="numerotel" placeholder="Numero Telefonico"/> <br><br>
+
+            <label for=cantidad>Cantidad de pasteles</label>
+            <input type="text" id="cantidad" name="cantidad" placeholder="Cantidad"/> <br><br>
+
+            <label for=fecha>Fecha de entrega</label>
+            <input type="date" id="fecha" name="fecha" /> <br><br>
+
+            <label for=sabores>Sabores</label>
+            <select id="sabores" name="sabor">
+                <option>Selecciona una opción</option>
+                <option>Tres leches  .............................. $299.00</option>
+                <option>Vainilla  ..................................... $299.00</option>
+                <option>Frutos rojos .............................. $299.00</option>
+                <option>Queso con zarzamora ............. $299.00</option>
+                <option>Napolitano ............................... $299.00</option>
+                <option>Chocolate ................................ $299.00</option>
+            </select> <br><br>
+
+            <label for="decoracion">Decoraciones</label>
+            <select id="decoracion" name="decoracion">
+                <option>Ninguno</option>
+                <option>Fondant ............................... $180.00</option>
+                <option>Chispas de chocolate ........... $60.00</option>
+                <option>Praliné ................................ $190.00</option>
+                <option>Sprinkles .............................. $150.00</option>
+            </select><br><br>
+    
+
+            <label for="Adicional">Informacion Adicional</label> <br>
+            <textarea rows="10"cols="30" id=Adicional placeholder="Informacion Adicional"name="Adicional"></textarea> <br>
+            <button type="submit">Enviar</button> <br>  
+
+
+            
+
+        </div>
+    </form> 
+
+    
+</body>
+</html>

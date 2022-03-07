@@ -1,0 +1,31 @@
+#Titulo{
+    color: #7F194F;
+}
+#Formulario{
+ color: #7F194F;   
+}
+#Pastelero{
+    color: #7F194F;
+}
+#subtitulo{
+    color: #39346b;
+}
+
+li.tipos{
+    color: #210F04;
+}
+li.decoracion{
+    color:#210F04 ;
+}
+
+body{
+    background-image: url("https://i.ibb.co/wLF0rYT/Fondo-pagina.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+table, th, td {
+
+    border: 1px solid black;
+}
